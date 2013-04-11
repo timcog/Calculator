@@ -44,6 +44,11 @@ public class testScientificCalculator {
 		assertEquals("Test divide",10, sc.divide(20, 2));
 	}
 	
+	@Test
+	public void testRoot() {
+		ScientificCalculator sc = new ScientificCalculator();
+		assertEquals("Test divide",3, sc.root(9),0.01);
+	}
 	
 
 }

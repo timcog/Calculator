@@ -1,4 +1,5 @@
 package ie.gcd.maths;
+import java.lang.Math;
 
 public class ScientificCalculator {
 
@@ -27,5 +28,8 @@ public class ScientificCalculator {
 		return x/y;
 	}
 
+	public double root(double x){
+		return Math.sqrt(x);
+	}
 	
 }
